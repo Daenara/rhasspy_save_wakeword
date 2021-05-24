@@ -136,3 +136,4 @@ dmypy.json
 not_working
 *.ini
 computer/
+test.py
