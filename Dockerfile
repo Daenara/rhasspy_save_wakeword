@@ -1,6 +1,6 @@
 FROM python:3.7
 RUN apt-get update && apt-get install -y git python3-pip && \
-	pip install pydub
+	pip install pydub paho-mqtt
 
 COPY main.py /data
 COPY config.ini /data
